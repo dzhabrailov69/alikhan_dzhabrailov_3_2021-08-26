@@ -1,0 +1,159 @@
+/*****GENERAL*****/
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.flexColumnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.decorationNone { 
+    text-decoration: none;
+}
+.borderNone {
+    border: none;
+}
+.textBold {
+    font-weight : bold;
+}
+.colorPrimary {
+    color: #9356DC;
+}
+.colorSecondary {
+    color: #FF79DA;
+}
+.colorTertiary {
+    color: #99E2D0;
+}
+.colorGrey {
+    color: #686464;
+}
+
+.backGrey {
+    background-color: #f2f2f2;
+}
+.backGreyClear {
+    background-color: #fafafa;
+}
+
+
+/*****HEADER*****/
+.logoShrikhand {
+    font-family: 'Shrikhand', cursive;
+}
+.maps {
+    padding: 5%;
+    font-size: 1rem;
+}
+.mapsBold {
+    font-weight: 900;
+}
+.header {
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+    position: relative;
+}
+.logoMaps {
+    padding-right: 15px;
+}
+.textCenter {
+    text-align: center;
+}
+.buttonHeader {
+    border: 0;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg,rgba(136, 81, 204, 0.9),rgba(253, 110, 213, 0.9));
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+} 
+.buttonPadding {
+    padding-bottom: 15px;
+}
+.menuPadding {
+    padding-top: 10px;
+}
+.rightPadding {
+    padding-right: 20px;
+}
+.backPadding {
+    padding: 7px 0 50px 0;
+}
+
+.listStyle {
+    list-style: none;
+    padding: 0;
+    counter-reset: compteListe;
+}
+.listStyles { 
+    padding: 1.5rem;
+    margin: 1rem 0 1rem .75rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 1.25rem;
+    background-color: #f6f6f6;
+    display: flex;
+    position: relative;
+}
+.paddingFonc {
+    padding: 2rem 1rem;
+}
+.listStyles::before {
+    counter-increment: compteListe 1;
+    content: counter(compteListe);
+    background: #9356DC ;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    left: -.75rem;
+} 
+
+
+
+
+
+.optionImg1 {
+    height: 12rem;
+    width: 100%;
+    border: transparent solid 0px;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: none;
+    object-fit: cover;
+}
