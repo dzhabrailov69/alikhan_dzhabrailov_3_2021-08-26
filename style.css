@@ -157,3 +157,13 @@ body {
     box-shadow: none;
     object-fit: cover;
 }
+
+
+.choiseMenu {
+    background-color: #f6f6f6;
+}
+
+.choiseMenu2 {
+    background-color: #fff;
+    box-shadow: grey ;
+}
