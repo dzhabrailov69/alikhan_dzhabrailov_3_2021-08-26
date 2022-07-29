@@ -47,11 +47,34 @@
     display: flex;
     position: relative;
 }
+.listStyles3 { 
+    padding: 1.5rem;
+    margin: 1rem 0 1rem .75rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 1.25rem;
+    background-color: #f6c0fb;
+    display: flex;
+    position: relative;
+}
 .paddingFonc {
     padding: 2rem 1rem;
 }
 
 .listStyles::before {
+    counter-increment: compteListe 1;
+    content: counter(compteListe);
+    background: #9356DC ;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    left: -.75rem;
+} 
+.listStyles3::before {
     counter-increment: compteListe 1;
     content: counter(compteListe);
     background: #9356DC ;
