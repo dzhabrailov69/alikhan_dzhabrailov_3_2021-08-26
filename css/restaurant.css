@@ -1,0 +1,110 @@
+
+/*****RESTAURANT*****/
+.restaurants {
+    background-color: #f6f6f6;
+    padding: 2rem 1rem;
+}
+
+.Container {
+    display: flex;
+    width: 5rem;
+    justify-content: space-between;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  
+    @media (min-width:64rem) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 1rem;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .card__img {
+    height: 12rem;
+    width: 100%;
+    border: transparent solid 0px;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: none;
+    object-fit: cover;
+  }
+
+  .cardBadge {
+    background-color: #99E2D0;
+    color: #1b1b1b;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    position: absolute;
+    top: 1rem;
+    right: 0.75rem;
+  }
+
+  .cardFooter {
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+ .cardContent {
+    flex: 1;
+  }
+
+  .card__title {
+    margin: 0;
+    margin-bottom: 0.25rem;
+  }
+
+  .cardSubtitle {
+    margin: 0;
+  }
+
+  .menuBtn {
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    border: transparent 0px solid;
+    padding: 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+    position: relative;
+    background-color: #000;
+  }
+  
+  .menuLike {
+    transition-duration: .25s;
+    background-color: #f6f6f6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    mix-blend-mode: lighten;
+  }
+  .menuBtn:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .card__like {
+    background-color: #fff!important;
+}
+/*****RESTAURANT*****/

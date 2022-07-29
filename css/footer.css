@@ -1,0 +1,40 @@
+/*****FOOTER*****/
+.footer {
+    background-color: #353535;
+  }
+  .footer .container {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
+    .footerLogo {
+      color: white;
+      font-family: "Shrikhand", "cursive";
+      margin: 0;
+      font-size: 1.2rem;
+      margin:0 0 1rem;
+    }
+  
+    .footerList {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .footerListElt {
+      margin: 0.5rem 0;
+    }
+.footerLink {
+    color: white;
+    text-decoration: none; 
+}
+.footerLink:hover {
+    text-decoration: none;
+  }
+
+.footerIcon {
+    width: 1.2rem;
+    margin-right: 0.5rem;
+}
+/*****FOOTER*****/

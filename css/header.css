@@ -1,73 +1,3 @@
-/*****GENERAL*****/
-html,
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-}
-.flexCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.flexAround {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.flexBetween {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.flexColumnCenter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.flexColumnAround {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-}
-
-.flexColumnBetween {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.decorationNone { 
-    text-decoration: none;
-}
-.borderNone {
-    border: none;
-}
-.textBold {
-    font-weight : bold;
-}
-.colorPrimary {
-    color: #9356DC;
-}
-.colorSecondary {
-    color: #FF79DA;
-}
-.colorTertiary {
-    color: #99E2D0;
-}
-.colorGrey {
-    color: #686464;
-}
-
-.backGrey {
-    background-color: #f2f2f2;
-}
-.backGreyClear {
-    background-color: #fafafa;
-}
-
-
 /*****HEADER*****/
 .logoShrikhand {
     font-family: 'Shrikhand', cursive;
@@ -89,17 +19,7 @@ body {
 .textCenter {
     text-align: center;
 }
-.buttonHeader {
-    border: 0;
-    padding: 1rem 1.5rem;
-    font-weight: 700;
-    font-size: 1.2rem;
-    border-radius: 100px;
-    color: #fff;
-    background-color: #686868;
-    background-image: linear-gradient(0deg,rgba(136, 81, 204, 0.9),rgba(253, 110, 213, 0.9));
-    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
-} 
+
 .buttonPadding {
     padding-bottom: 15px;
 }
@@ -130,6 +50,7 @@ body {
 .paddingFonc {
     padding: 2rem 1rem;
 }
+
 .listStyles::before {
     counter-increment: compteListe 1;
     content: counter(compteListe);
@@ -145,10 +66,6 @@ body {
     left: -.75rem;
 } 
 
-
-
-
-
 .optionImg1 {
     height: 12rem;
     width: 100%;
@@ -158,7 +75,6 @@ body {
     object-fit: cover;
 }
 
-
 .choiseMenu {
     background-color: #f6f6f6;
 }
@@ -167,3 +83,4 @@ body {
     background-color: #fff;
     box-shadow: grey ;
 }
+/*****HEADER*****/

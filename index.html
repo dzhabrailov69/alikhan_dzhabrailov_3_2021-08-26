@@ -12,8 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link 
-    rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/animation.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/restaurant.css"/>
     <title>ohmyfood</title>
  </head>
  <body>
@@ -32,7 +35,7 @@
         </h2>
         <p class="textCenter buttonPadding">Découvrez des restaurants d'exception, <br>
             séléctionnés par nos soins.</p>
-        <a class="buttonHeader textBold">Explorer nos restaurants</a>
+        <a class="buttonWelcome textBold">Explorer nos restaurants</a>
     </section>
     <!-------------FONCTIONNEMENT------------->
     <section class="paddingFonc">
@@ -55,12 +58,93 @@
         </div>
       </section>
       <!------------RESTAURANTS-------------->
+
+
+      <section class="restaurants" id="restaurants">
+        <div class="container">
+          <h2 class="restaurants__title">Restaurants</h2>
+          
+          <div class="cards">
+            <a class="card" href="./la-palette-du-gout.html">
+              <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="" class="card__img">
+              <span class="cardBadge">Nouveau</span>
+              <footer class="cardFooter">
+                <div class="cardContent">
+                  <h3 class="cardTitle">La palette du goût</h3>
+                  <span class="cardSubtitle">Ménilmontant</span>
+                </div>
+                <div class="menuBtn cardBtn">
+                  <i class="cardLike menuLike menuLike--noBg far fa-heart fa-2x"></i>
+                  <i class="cardLike menuLike menuLike--bg fas fa-heart fa-2x"></i>
+                </div>
+              </footer>
+            </a>
       
+            <a class="card" href="./la-note-enchantee.html">
+              <img src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="" class="card__img">
+              <span class="cardBadge">Nouveau</span>
+              <footer class="cardFooter">
+                <div class="cardContent">
+                  <h3 class="cardTitle">La note enchantée</h3>
+                  <span class="cardSubtitle">Charonne</span>
+                </div>
+                <div class="menuBtn cardBtn">
+                  <i class="cardLike menuLike menuLike--noBg far fa-heart fa-2x"></i>
+                  <i class="cardLike menuLike menuLike--bg fas fa-heart fa-2x"></i>
+                </div>
+              </footer>
+            </a>
+      
+            <a class="card" href="./a-la-francaise.html">
+              <img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="" class="card__img">
+              <footer class="cardFooter">
+                <div class="cardContent">
+                  <h3 class="cardTitle">À la française</h3>
+                  <span class="cardSubtitle">Cité Rouge</span>
+                </div>
+                <div class="menuBtn cardBtn">
+                  <i class="cardLike menuLike menuLike--noBg far fa-heart fa-2x"></i>
+                  <i class="cardLike menuLike menuLike--bg fas fa-heart fa-2x"></i>
+                </div>
+              </footer>
+            </a>
+      
+            <a class="card" href="./le-delice-des-sens.html">
+              <img src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="" class="card__img">
+              <footer class="cardFooter">
+                <div class="cardContent">
+                  <h3 class="cardTitle">Le délice des sens</h3>
+                  <span class="cardSubtitle">Folie-Méricourt</span>
+                </div>
+                <div class="menuBtn cardBtn">
+                  <i class="cardLike menuLike menuLike--noBg far fa-heart fa-2x"></i>
+                  <i class="cardLike menuLike menuLike--bg fas fa-heart fa-2x"></i>
+                </div>
+              </footer>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
-
- <footer>
- 
-
- </footer>
+<!------------FOOTER-------------->
+    <footer class="footer">
+      <div class="container">
+        <span class="footerLogo">ohmyfood</span>
+        <ul class="footerList">
+          <li class="footerListElt">
+            <a class="footerLink" href="#"><i class="footerIcon fas fa-utensils"></i>Proposer un restaurant</a>
+          </li>
+          <li class="footerListElt">
+            <a class="footerLink" href="#"><i class="footerIcon fas fa-hands-helping"></i>Devenir partenaire</a>
+          </li>
+          <li class="footerListElt">
+            <a class="footerLink" href="#">Mentions légales</a>
+          </li>
+          <li class="footerListElt">
+            <a class="footerLink" href="mailto:contact@ohmyfood.com">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
  </body>
 </html>
