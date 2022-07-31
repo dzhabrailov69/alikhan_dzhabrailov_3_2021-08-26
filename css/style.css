@@ -233,13 +233,13 @@ body {
 
 /*********DEUXIEME PARTIE************/
 .submenus {
-    display: grid;
-
-
-  @media (min-width:64rem) {
-      grid-template-columns: repeat(3,1fr);
-      column-gap: 1rem;
-  }
+  display: grid;
+}
+@media (min-width: 64rem) {
+  .submenus {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+ }
 }
   .submenu {
     max-width: 100%;
@@ -455,3 +455,5 @@ animation-iteration-count: 1;
 .delay-8 {
   animation-delay: .9s;
 }
+
+

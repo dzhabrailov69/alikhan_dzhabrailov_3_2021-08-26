@@ -38,6 +38,12 @@
     padding: 0;
     counter-reset: compteListe;
 }
+@media (min-width: 64rem) {
+    .listStyle {
+      display: flex;
+    }
+}  
+
 .listStyles { 
     padding: 1.5rem;
     margin: 1rem 0 1rem .75rem;
@@ -47,6 +53,13 @@
     display: flex;
     position: relative;
 }
+@media (min-width: 64rem) {
+    .listStyles {
+        flex: 1;
+        margin: 0 0 0 2rem;
+    }
+}  
+
 .listStyles3 { 
     padding: 1.5rem;
     margin: 1rem 0 1rem .75rem;
@@ -56,6 +69,12 @@
     display: flex;
     position: relative;
 }
+@media (min-width: 64rem) {
+    .listStyles3 {
+        flex: 1;
+        margin: 0 0 0 2rem;
+    }
+}  
 .paddingFonc {
     padding: 2rem 1rem;
 }
